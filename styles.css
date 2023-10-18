@@ -51,8 +51,7 @@ a{
   font-family: 'Neucha', cursive;
 }
 /*used to separate the PROJECTS from REVIEWS */ 
-@media (max-width: 768px) {
-  .small-divider {
-    height: 100px;
-  }
+.small-divider {
+   height: 100px;
 }
+
