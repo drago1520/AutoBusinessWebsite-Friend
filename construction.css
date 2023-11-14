@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background: url('./Assets/construction.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: whitesmoke;
+  font-family: 'Literata', serif;
+}
+.contact{
+  background-color: rgba(0, 0, 0, 0.871);
+}
+.divider{
+  height: 160px;
+}
+
+.btn-warning{
+  font-weight: 700;
+}
+.carousel{
+  width: 30%;
+  min-width: 300px;
+}
+
+gmp-map {
+  height: 100%;
+}
+.telephone{
+  color: #FFCA2C;
+}
+a{
+  text-decoration: wavy;
+  color: inherit
+}
+.carousel-item {
+  height: 300px;  /* Or whatever fixed height you want */
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;  /* This will make sure the images cover the entire available space without stretching */
+}
+.highlight{
+  color: #FFCA2C;
+}
+.containerr{
+  background-position: left top;
+  background-repeat: no-repeat; /*това е ясно*/
+  background-size: contain; /*кара цялата снимка да е на заден фон*/
+  background-position: -20px;/* контролира кръга на къде ще се измести*/
+}
+.gay-divider{
+  height: 80px;
+}
+.gay-font{
+  font-family: 'Neucha', cursive;
+}
+/*used to separate the PROJECTS from REVIEWS */ 
+.small-divider {
+   height: 100px;
+}
+@keyframes fluctuatingOpacity {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.btn-fluctuating-opacity {
+  animation: fluctuatingOpacity 4s infinite;
+}
+
+

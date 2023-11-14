@@ -1,0 +1,16 @@
+{
+  "name": "autobusinesswebsite-friend",
+  "version": "1.0.0",
+  "description": "This is a website for my friend's business which polishes cars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "faq": "npx tailwindcss -i ./faq.css -o ./readyFaq.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
