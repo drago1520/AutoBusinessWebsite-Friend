@@ -16,6 +16,10 @@ h2{
   width: 30%;
   min-width: 300px;
 }
+#carouselExampleAutoplaying1{
+  width: 100%;
+  min-width: 300px;
+}
 
 gmp-map {
   height: 100%;
@@ -27,8 +31,11 @@ a{
   text-decoration: wavy;
   color: inherit
 }
-.carousel-item {
-  height: 300px;  /* Or whatever fixed height you want */
+#carouselExampleAutoplaying1 .carousel-item {
+  height: 400px;  /* Or whatever fixed height you want */
+}
+#carouselExampleAutoplaying2 .carousel-item{
+  height: 300px;
 }
 
 .carousel-item img {
