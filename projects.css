@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body{
   background-color: rgba(0, 0, 0, 0.871);
   color: whitesmoke;
@@ -16,10 +19,6 @@ h2{
   width: 30%;
   min-width: 300px;
 }
-#carouselExampleAutoplaying1{
-  width: 100%;
-  min-width: 300px;
-}
 
 gmp-map {
   height: 100%;
@@ -31,11 +30,8 @@ a{
   text-decoration: wavy;
   color: inherit
 }
-#carouselExampleAutoplaying1 .carousel-item {
-  height: 400px;  /* Or whatever fixed height you want */
-}
-#carouselExampleAutoplaying2 .carousel-item{
-  height: 300px;
+.carousel-item {
+  height: 300px;  /* Or whatever fixed height you want */
 }
 
 .carousel-item img {
@@ -70,4 +66,5 @@ a{
 .btn-fluctuating-opacity {
   animation: fluctuatingOpacity 4s infinite;
 }
+
 
